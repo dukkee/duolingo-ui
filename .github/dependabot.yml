@@ -1,0 +1,31 @@
+version: 2
+
+updates:
+
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+    pull-request-branch-name:
+      separator: "-"
+    commit-message:
+      prefix: "⬆"
+    assignees:
+      - "dukkee"
+    reviewers:
+      - "dukkee"
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+    pull-request-branch-name:
+      separator: "-"
+    commit-message:
+      prefix: "⬆"
+    assignees:
+      - "dukkee"
+    reviewers:
+      - "dukkee"
