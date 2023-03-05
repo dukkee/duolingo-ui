@@ -5,7 +5,7 @@
         [
           {
             "name": "Book 1",
-            "image": "/images/book.svg",
+            "image": "images/book.svg",
             "items": [
               {
                 "content": "Item 1",
@@ -25,25 +25,25 @@
         [
           {
             "name": "Book 1",
-            "image": "/images/shield.svg"
+            "image": "images/shield.svg"
           },
           {
             "name": "Book 1",
-            "image": "/images/home.svg"
+            "image": "images/home.svg"
           },
           {
             "name": "Book 1",
-            "image": "/images/book.svg"
+            "image": "images/book.svg"
           }
         ],
         [
           {
             "name": "Book 1",
-            "image": "/images/book.svg"
+            "image": "images/book.svg"
           },
           {
             "name": "Book 1",
-            "image": "/images/book.svg"
+            "image": "images/book.svg"
           }
         ]
       ]
@@ -53,7 +53,7 @@
         [
           {
             "name": "Book 1",
-            "image": "/images/book.svg",
+            "image": "images/book.svg",
             "items": [
               {
                 "content": "Item 1",
@@ -73,7 +73,7 @@
         [
           {
             "name": "Book 1",
-            "image": "/images/book.svg",
+            "image": "images/book.svg",
             "items": [
               {
                 "content": "Item 1",

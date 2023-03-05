@@ -21,7 +21,7 @@
       </svg>
       <img
         class="absolute h-16 w-16 p-2.5 bg-blue-400 rounded-full select-none pointer-events-none"
-        :src="image"
+        :src="`${data.publicPath}${image}`"
         alt="">
       <div
         v-if="data.showModal && items.length"
@@ -74,6 +74,7 @@ const props = defineProps({
 
 const data = reactive({
   showModal: false,
+  publicPath: import.meta.env.BASE_URL,
 });
 
 const doneItemCount = computed(() => props.items.reduce((result, item) => result + Number(item.status), 0));
